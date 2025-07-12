@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background: gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container{
+  width: 400px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+.main h1{
+  text-align: center;
+  font-size: 35px;
+  color: rgb(2, 134, 90);
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.bill-container{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+label{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: rgb(17, 99, 72);
+}
+input{
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid rgb(16, 135, 139);
+}
+input::placeholder{
+  color: rgb(5, 91, 63);
+}
+.btn{
+  padding: 10px;
+}
+.btn button{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background:rgb(10, 155, 107);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: 4px;
+  margin-top:5px ;
+}
+.result{
+  padding: 10px;
+}
+.result p{
+  font-size: 16px;
+  color: rgb(0, 94, 63);
+  font-weight: 600;
+}
+.result p span{
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(3, 118, 80);
+}
